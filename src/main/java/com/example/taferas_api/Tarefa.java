@@ -12,7 +12,7 @@ import jakarta.persistence.Id;
 public class Tarefa {
 
     @Id 
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Configura a geração automática do ID pelo banco (PostgreSQL)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) 
     private long id; // Identificador único da tarefa
 
     @Column(nullable = false, length = 100) // O campo não pode ser nulo e tem limite de 100 caracteres
