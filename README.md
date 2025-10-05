@@ -38,7 +38,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 2.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/SeuUsuario/api-gerenciador-tarefas.git](https://github.com/SeuUsuario/api-gerenciador-tarefas.git)
+    git clone https://github.com/DaviGCB/api-gerenciador-tarefas.git
     ```
 
 3.  **Configure o Banco de Dados:**
