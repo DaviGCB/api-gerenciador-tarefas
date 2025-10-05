@@ -8,10 +8,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-@Entity // Anotação que indica que esta classe é uma entidade e será mapeada para uma tabela
+@Entity 
 public class Tarefa {
 
-    @Id // Marca o campo 'id' como a chave primária da tabela
+    @Id 
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Configura a geração automática do ID pelo banco (PostgreSQL)
     private long id; // Identificador único da tarefa
 
