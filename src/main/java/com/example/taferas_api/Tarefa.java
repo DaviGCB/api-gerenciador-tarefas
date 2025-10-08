@@ -13,18 +13,17 @@ public class Tarefa {
 
     @Id 
     @GeneratedValue(strategy = GenerationType.IDENTITY) 
-    private long id; // Identificador único da tarefa
+    private long id; 
 
-    @Column(nullable = false, length = 100) // O campo não pode ser nulo e tem limite de 100 caracteres
-    private String descricao; // Texto que descreve a tarefa
+    @Column(nullable = false, length = 100) 
+    private String descricao; 
 
-    @Column(columnDefinition = "boolean default false") // Define 'false' como o valor padrão no banco
-    private boolean concluida; // Indica se a tarefa foi concluída ou não
+    @Column(columnDefinition = "boolean default false") 
+    private boolean concluida; 
 
-    @Column(nullable = false) // O campo não pode ser nulo
-    private int prioridade; // Número que representa a prioridade da tarefa
-
-    // Getters e Setters (necessários para o Spring/JPA acessar os campos)
+    @Column(nullable = false) 
+    private int prioridade; 
+    
     public long getId() {
         return id;
     }
